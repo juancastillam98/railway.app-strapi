@@ -6,12 +6,14 @@ export interface ApiPlatoPlato extends Struct.CollectionTypeSchema {
     singularName: 'plato';
     pluralName: 'platoes';
     displayName: 'Plato';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    Nombre: Schema.Attribute.String;
+    Name: Schema.Attribute.String;
+    Description: Schema.Attribute.Text & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;

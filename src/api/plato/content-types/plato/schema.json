@@ -4,15 +4,20 @@
   "info": {
     "singularName": "plato",
     "pluralName": "platoes",
-    "displayName": "Plato"
+    "displayName": "Plato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Nombre": {
+    "Name": {
       "type": "string"
+    },
+    "Description": {
+      "type": "text",
+      "required": true
     }
   }
 }
