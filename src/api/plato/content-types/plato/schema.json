@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "platoes",
+  "info": {
+    "singularName": "plato",
+    "pluralName": "platoes",
+    "displayName": "Plato"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    }
+  }
+}
