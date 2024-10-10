@@ -13,7 +13,7 @@
   "dependencies": {
     "@strapi/design-system": "^1.19.0",
     "@strapi/icons": "^1.19.0",
-    "@strapi/plugin-cloud": "^5.0.5",
+    "@strapi/plugin-cloud": "^5.0.2",
     "@strapi/plugin-users-permissions": "^5.0.4",
     "@strapi/provider-upload-cloudinary": "5.0.2",
     "@strapi/strapi": "^5.0.5",
