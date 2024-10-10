@@ -21,7 +21,7 @@
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.26.2",
+    "react-router-dom": "^5.3.4",
     "strapi-health-plugin": "^1.1.0",
     "styled-components": "^6.0.0"
   },
