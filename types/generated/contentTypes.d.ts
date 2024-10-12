@@ -14,6 +14,7 @@ export interface ApiPlatoPlato extends Struct.CollectionTypeSchema {
   attributes: {
     Name: Schema.Attribute.String;
     Description: Schema.Attribute.Text & Schema.Attribute.Required;
+    Picture: Schema.Attribute.Media<'images' | 'files', true>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
